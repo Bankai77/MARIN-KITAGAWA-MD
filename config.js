@@ -18,7 +18,7 @@ global.oname = author
 global.bname = botname
 
 //Extra Shortcuts
-global.smlink = process.env.SOCIAL_MEDIA_LINK || 'https://instagram.com/Bankai77'
+global.smlink = process.env.SOCIAL_MEDIA_LINK || 'https://instagram.com/neyxi.tt'
 global.gclink = process.env.GROUP_LINK || 'https://chat.whatsapp.com/LHfJmKoYVJp1gDX58P55CY'
  
 //Apikeys
