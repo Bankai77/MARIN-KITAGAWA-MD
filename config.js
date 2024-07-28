@@ -25,7 +25,7 @@ global.gclink = process.env.GROUP_LINK || 'https://chat.whatsapp.com/LHfJmKoYVJp
 global.shizokeys = 'shizo'
 
 //Sticker Watermarks
-global.packname = process.env.BOT_NAME || '𝐎𝐭𝐚𝐤𝐮 𝐀𝐥𝐥𝐢𝐚𝐧𝐜𝐞 🔥😈🔥'
+global.packname = process.env.BOT_NAME || '𝐎𝐭𝐚𝐤𝐮 𝐀𝐥𝐥𝐢𝐚𝐧𝐜𝐞 🔥😈🔥|Stk by'
 global.stkpack = process.env.BOT_NAME || '𝕄𝕒𝕣𝕚𝕟 𝕂𝕚𝕥𝕒𝕘𝕒𝕨𝕒 𝕄𝔻 ✨'
 global.stkowner = process.env.OWNER_NAME || '© ✧Ａ𝖗ƙ𖤬_✨'
 
