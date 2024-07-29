@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://drive.google.com/file/d/1oMFlAnfw9emQdFpOxkNOTDXmajeJVdyW/view?usp=drive_link'
+  var vn = 'https://drive.google.com/file/d/1pCm7rFqF46dAF3V2oqWmleA7MaNlfAuY/view?usp=sharing'
   let url = 'https://github.com/Bankai77/KITAGAWA-MD'
   let murl = 'https://youtu.be/Z8lRhKH6ClE?si=U5oEtIG2vD1PWNZt'
   let img = 'https://images3.alphacoders.com/120/thumb-1920-1203462.jpg'
