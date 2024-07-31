@@ -567,7 +567,7 @@ export async function participantsUpdate({ id, participants, action }) {
 
             try {
               let welcomeResponse = await fetch(welcomeApiUrl)
-              let welcomeBuffer = await welcomeResponse.arraybuffer()
+              let welcomeBuffer = await welcomeResponse.buffer()
 
               this.sendMessage(id, {
                 text: text,
