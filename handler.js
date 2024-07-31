@@ -544,8 +544,8 @@ export async function participantsUpdate({ id, participants, action }) {
             ppgp = await this.profilePictureUrl(id, 'image')
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
-            pp = 'https://i.pinimg.com/736x/80/50/06/805006363313140f7d0697ce8a9f243b.jpg' // Assign default image URL
-            ppgp = 'https://i.pinimg.com/564x/d5/5a/f3/d55af382d2c752d9cd5e6f324be29537.jpg' // Assign default image URL
+            pp = 'https://i.imgur.com/ygVuJHG.jpeg' // Assign default image URL
+            ppgp = 'https://i.imgur.com/J7xzN88.jpg' // Assign default image URL
           } finally {
             let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
               .replace('@group', await this.getName(id))
@@ -562,7 +562,7 @@ export async function participantsUpdate({ id, participants, action }) {
             )}&memberCount=${encodeURIComponent(
               nthMember.toString()
             )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-              'https://images3.alphacoders.com/120/thumb-1920-1203462.jpg'
+              'https://images6.alphacoders.com/120/thumb-1920-1202672.png'
             )}`
 
             try {
