@@ -555,11 +555,19 @@ export async function participantsUpdate({ id, participants, action }) {
             let nthMember = groupMetadata.participants.length
             let secondText = `Welcome, ${await this.getName(user)}, our ${nthMember}th member`
 
-            let welcomeApiUrl = ``
+            let welcomeApiUrl = `https://welcome.guruapi.tech/welcome-image?username=${encodeURIComponent(
+              await this.getName(user)
+            )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
+              ppgp
+            )}&memberCount=${encodeURIComponent(
+              nthMember.toString()
+            )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
+              'https://cdn.wallpapersafari.com/71/19/7ZfcpT.png'
+            )}`
 
             try {
-             // let welcomeResponse = await fetch()
-             // let welcomeBuffer = await welcomeResponse.buffer()
+              let welcomeResponse = await fetch()
+              let welcomeBuffer = await welcomeResponse.arraybuffer()
 
               this.sendMessage(id, {
                 text: text,
