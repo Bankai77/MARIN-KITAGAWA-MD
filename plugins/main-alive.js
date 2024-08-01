@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://eu-central.storage.cloudconvert.com/tasks/f3e46cd3-43a6-4938-b61c-91384eebf407/Sugarcrush2.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240729%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240729T070834Z&X-Amz-Expires=86400&X-Amz-Signature=2266fd90052cafbaf9ef1d4f96c7ff49b850ad241d127bacfeecc53d5dcfe4a2&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22Sugarcrush2.mp3%22&response-content-type=audio%2Fmpeg&x-id=GetObject'
+  var vn = 'https://s96-ious.freeconvert.com/task/66ab36e8d6b14931a5b2a66c/YUNGBLUD_Abyss_from_Kaiju_No_8_Official_Lyric_Video_LYabT4zZnJQ.webm'
   let url = 'https://github.com/Bankai77/KITAGAWA-MD'
   let murl = 'https://youtu.be/Z8lRhKH6ClE?si=U5oEtIG2vD1PWNZt'
   let img = 'https://images3.alphacoders.com/120/thumb-1920-1203462.jpg'
